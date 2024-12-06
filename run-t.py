@@ -67,9 +67,9 @@ def run_bot(data_account, recover=1):
     try:
 
         nama_modif = kw.replace(" ", "-")
-        gmail = f"{nama_modif}-apk-modss-{random_string(6)}@gmail.com"
-        slug = f"mod-apk-{random_string(6)}"
-        judul = f"*!DOWNLOAD!* {kw} MOD Premium APK Download Latest Version Free for Android"
+        gmail = f"{nama_modif}-crawl-{random_string(6)}@gmail.com"
+        slug = f"{nama_modif}-google-index-{random_string(6)}"
+        judul = f"crawl google bot index site"
         link = f"https://apps.freeplayer.one/?title= CLICK HERE >> {kw}?ref=4D"
 
         driver.get("https://bento.me/signup?ref=techcrunch&app=wetransferflow&atb=true")
@@ -88,7 +88,7 @@ def run_bot(data_account, recover=1):
             By.CSS_SELECTOR, "input[placeholder='Email address']"
         ).send_keys(gmail)
         driver.find_element(By.CSS_SELECTOR, "input[placeholder='Password']").send_keys(
-            "@@Kamudia12sPos"
+            "kebun321"
         )
         time.sleep(2)
         driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
@@ -125,7 +125,7 @@ def run_bot(data_account, recover=1):
         print(driver.current_url)
         
         try:
-            konten = f'{kw} MOD APK lets you do more with your life effortlessly By freely installing the latest version of the chat GPT AI APK on your Android device \n'
+            konten = f'Crawling and indexing help your site rank in search results. Browse topics to understand what it means for Google to crawl your website and index it \n'
             driver.find_element(
                 By.XPATH,
                 "/html/body/div[2]/div[1]/div/div/div[2]/div[2]/div/div/div",
