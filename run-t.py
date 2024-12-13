@@ -68,7 +68,7 @@ def run_bot(data_account, recover=1):
 
         nama_modif = kw.replace(" ", "-")
         gmail = f"{nama_modif}@gmail.com"
-        slug = f"{nama_modif}-food"
+        slug = f"{nama_modif}-news-faster"
         judul = f"crawl google bot index site"
         link = f"https://google.com"
 
@@ -125,7 +125,7 @@ def run_bot(data_account, recover=1):
         print(driver.current_url)
         
         try:
-            konten = f'{random_string(6)}Crawling and indexing {random_string(6)} your site rank in search results website and index it {random_string(6)} \n'
+            konten = f'Crawling and indexing your site rank in search results website and index it  \n'
             driver.find_element(
                 By.XPATH,
                 "/html/body/div[2]/div[1]/div/div/div[2]/div[2]/div/div/div",
